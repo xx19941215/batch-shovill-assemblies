@@ -1,1 +1,1 @@
-module "gyy-shovill"
+module "batch-shovill-assemblies"
