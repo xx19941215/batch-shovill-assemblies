@@ -1,4 +1,4 @@
-# Batch Shovill 
+# Batch Shovill Assemblies
 Batch Shovill can help you execute shovill batch assemblies.
 
 # Useage
