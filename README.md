@@ -8,7 +8,7 @@ You only need to specify two parameters, dataPath and outPath.
 For example:
 
 ```
-./batch-shovill-linux-amd64 -dataPath=/path/to/data -outPath=/path/to/out1
+./batch-shovill-linux-amd64 -dataPath=/path/to/data -outPath=/path/to/out
 ```
 
 The file name format example of the source file has been given in the [data directory](data).
