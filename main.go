@@ -17,19 +17,19 @@ func main()  {
 	var outPath string
 	var dataPath string
 
-	flag.StringVar(&outPath, "outPath", "", "输入目录，默认为空")
-	flag.StringVar(&dataPath, "dataPath", "", "数据目录，默认为空")
+	flag.StringVar(&outPath, "outPath", "", "shovill output file path")
+	flag.StringVar(&dataPath, "dataPath", "", "shovill source file path")
 
 	flag.Parse()
 	if (len(outPath) == 0 || len(dataPath) == 0) {
-		logger("参数都要填噢 郭郭!!")
+		logger("missing params !!")
 		return
 	}
 
 	var files []string
 	files, err := GetAllFile(dataPath, files)
 	if err != nil {
-		logger("读取文件出错")
+		logger("read file error")
 		return
 	}
 
