@@ -17,10 +17,10 @@ The file name format example of the source file has been given in the [data dire
 
 You can use this program directly on Linux, Windows and Mac, as long as your device has [Shovill](https://github.com/tseemann/shovill) installed.
 
-[window](batch-shovill-windows-amd64)
+[Windows](batch-shovill-windows-amd64)
 
-[mac](batch-shovill-mac-amd64)
+[Mac](batch-shovill-mac-amd64)
 
-[linux](batch-shovill-linux-amd64)
+[Linux](batch-shovill-linux-amd64)
 
 
