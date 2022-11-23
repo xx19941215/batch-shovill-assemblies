@@ -1,5 +1,6 @@
 # Batch Shovill Assemblies
-Batch Shovill can help you execute shovill batch assemblies.
+
+shovill批量执行脚本 Batch Shovill can help you execute shovill batch assemblies.
 
 # Useage
 
