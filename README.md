@@ -1,5 +1,6 @@
 # Batch Shovill Assemblies
-Batch Shovill can help you execute shovill batch assemblies.
+
+shovill批量执行脚本 Batch Shovill can help you execute shovill batch assemblies.
 
 # Useage
 
@@ -13,14 +14,16 @@ For example:
 
 The file name format example of the source file has been given in the [data directory](data).
 
+Note: The folder cannot include any file other than the source file, such as. DS_ Store these invisible files.
+
 # Cross platform
 
 You can use this program directly on Linux, Windows and Mac, as long as your device has [Shovill](https://github.com/tseemann/shovill) installed.
 
-[window](batch-shovill-windows-amd64)
+[Windows](batch-shovill-windows-amd64)
 
-[mac](batch-shovill-mac-amd64)
+[Mac](batch-shovill-mac-amd64)
 
-[linux](batch-shovill-linux-amd64)
+[Linux](batch-shovill-linux-amd64)
 
 
