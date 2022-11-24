@@ -41,6 +41,9 @@ func main()  {
 
 		if os.IsNotExist(err) {
 			ret := getGenArray(outPutDirSeg, files)
+			if len(ret) != 2 {
+				continue
+			}
 			file1 := ret[0]
 			file2 := ret[1]
 
@@ -125,7 +128,7 @@ func logger(logthis string) {
 		}
 
 	}
-	file, err := os.OpenFile(filePath, os.O_WRONLY | os.O_TRUNC, 0666)
+	file, err := os.OpenFile(filePath, os.O_WRONLY | os.O_APPEND, 0666)
 	// file, err := os.OpenFile(filePath, os.O_WRONLY | os.O_APPEND, 0666)
 	if err != nil {
 		fmt.Printf("open file err=%v\n", err)
@@ -136,7 +139,7 @@ func logger(logthis string) {
 
 	now := time.Now()
 	time := now.Format("2006/01/02 15:04:05")
-	str := fmt.Sprintf("%v %v ", time, logthis)
+	str := fmt.Sprintf("%v %v \n", time, logthis)
 	writer := bufio.NewWriter(file)
 	writer.WriteString(str)
 
